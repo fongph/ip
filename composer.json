@@ -1,0 +1,11 @@
+{
+    "name": "boomsers/ip",
+    "version": "1.0",
+    "type": "library",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "classmap": ["src/IP.php"]
+    }
+}
