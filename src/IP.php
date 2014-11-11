@@ -10,7 +10,8 @@ class IP
 
     public static function getCountry($ip)
     {
-        require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'tabgeo' . 'tabgeo_country_v4.php';
+        require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR .
+                'tabgeo' . DIRECTORY_SEPARATOR . 'tabgeo_country_v4.php';
 
         return tabgeo_country_v4($ip);
     }
